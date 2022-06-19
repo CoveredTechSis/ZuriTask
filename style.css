@@ -1,0 +1,98 @@
+*{box-sizing: border-box;}
+body{
+    background-color: white;
+}
+main {display: flex;
+    padding: 180px;
+    margin: 30px;
+    width: auto;
+    height: auto;
+}
+header{
+    align-content: center;
+}
+nav a{
+    text-decoration: none;
+    color: firebrick;
+    font-size: larger;
+    
+  }  
+  nav a:hover{
+    background-color:  rosybrown;
+    border-radius: 5px;
+  }
+.column-1 {
+    background-color: rgb(247, 139, 7);
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+    sans-serif;
+    padding: 30px;
+    margin-top: 10px;
+    font-size: medium;
+    
+}
+
+#button{
+    color: rgb(247, 139, 7);
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: antique white;
+    border-style: none;
+    
+}
+#button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+    
+    
+.column-2 {
+    background-color: rgb(4, 71, 71);
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin-top: 10px;
+    font-size: medium;
+    
+    
+}
+
+#button{
+   color: rgb(4, 71, 71);
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: antiquewhite;
+    border-style: none;
+    
+}
+#button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.column-3 {
+    background-color: rgb(3, 43, 31);
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    margin-top: 10px;
+    
+    
+}
+.p{font-size: 80%;}
+
+#button{
+    color: rgb(3, 43, 31);
+    border-radius: 20px;
+    padding: 15px 10px;
+    background-color: antique white;
+    border-style: none;
+    
+    
+}
+#button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+    
